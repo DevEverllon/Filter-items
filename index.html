@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filtro de Dados</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Consultar Item</h1>
+
+      <div class="search">
+        <input
+          type="text"
+          id="searchInput"
+          class="searchInput"
+          placeholder="Buscar item"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="header-item">
+        <p>Produto</p>
+        <p>Id</p>
+      </div>
+
+      <div id="itemContainer">
+        <!-- <div class="item" data-category="fruta">Maçã</div> -->
+
+        <!-- EMPADAS -->
+        <div class="item" data-category="Empada" data-id="36215">
+          <p class="name">Empada de Queijo Cuia</p>
+          <span class="id">36215</span>
+        </div>
+
+        <div class="item" data-category="Empada" data-id="3328">
+          <p class="name">Empada de Bacalhau</p>
+          <span class="id">3328</span>
+        </div>
+
+        <div class="item" data-category="Empada" data-id="3329">
+          <p class="name">Empada de Frango c/ Requeijão</p>
+          <span class="id">3329</span>
+        </div>
+
+        <div class="item" data-category="Empada" data-id="3331">
+          <p class="name">Empada de Camarão</p>
+          <span class="id">3331</span>
+        </div>
+        <!-- EMPADAS -->
+
+        <!-- LANCHES -->
+        <div class="item" data-category="Lanche" data-id="19636">
+          <p class="name">Lanchão de Frango</p>
+          <span class="id">19636</span>
+        </div>
+
+        <div class="item" data-category="Lanche" data-id="3546">
+          <p class="name">Lanchão Hambúrguer</p>
+          <span class="id">3546</span>
+        </div>
+
+        <div class="item" data-category="Lanche" data-id="19669">
+          <p class="name">Lanchão de Calabresa</p>
+          <span class="id">19669</span>
+        </div>
+
+        <div class="item" data-category="Lanche" data-id="3523">
+          <p class="name">Lanchão Misto</p>
+          <span class="id">3523</span>
+        </div>
+
+        <div class="item" data-category="Lanche" data-id="26416">
+          <p class="name">Lanchão Queijo c/ Salame</p>
+          <span class="id">26416</span>
+        </div>
+
+        <div class="item" data-category="Lanche" data-id="4213">
+          <p>Lanchão Peito de Peru</p>
+          <span>4213</span>
+        </div>
+        <!-- LANCHES -->
+
+        <!-- ESFIRRA -->
+        <!-- Lanches -->
+        <div class="item" data-category="Lanche" data-id="19636">
+          <p class="name">Lanchão de Frango</p>
+          <span class="id">19636</span>
+        </div>
+
+        <!-- Esfihas -->
+        <div class="item" data-category="Esfiha" data-id="3333">
+          <p class="name">Esfirra de Carne</p>
+          <span class="id">3333</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="3334">
+          <p class="name">Esfirra de Frango c/ Requeijão</p>
+          <span class="id">3334</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="36212">
+          <p class="name">Esfirra de Ricota c/ Jambu</p>
+          <span class="id">36212</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="22600">
+          <p class="name">Esfirra Turca de Carne</p>
+          <span class="id">22600</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="22601">
+          <p class="name">Esfirra Turca de Frango</p>
+          <span class="id">22601</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="25372">
+          <p class="name">Esfirra Turca Vegetariana</p>
+          <span class="id">25372</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="4387">
+          <p class="name">Esfirra Árabe Carne</p>
+          <span class="id">4387</span>
+        </div>
+
+        <div class="item" data-category="Esfiha" data-id="4388">
+          <p class="name">Esfirra Árabe Queijo</p>
+          <span class="id">4388</span>
+        </div>
+
+        <!-- Quiches -->
+        <div class="item" data-category="Quiche" data-id="3347">
+          <p class="name">Quiche 4 Queijos</p>
+          <span class="id">3347</span>
+        </div>
+        <!-- ESFIRRA -->
+
+        <!-- CROISSANT -->
+        <div class="item" data-category="Croissant" data-id="35383">
+          <p class="name">Croissant Pré-Assado</p>
+          <span class="id">35383</span>
+        </div>
+
+        <div class="item" data-category="Croissant" data-id="33952">
+          <p class="name">Croissant Rosa</p>
+          <span class="id">33952</span>
+        </div>
+
+        <div class="item" data-category="Croissant" data-id="3326">
+          <p class="name">Croissant Misto</p>
+          <span class="id">3326</span>
+        </div>
+
+        <div class="item" data-category="Croissant" data-id="3876">
+          <p class="name">Croissant Peito de Peru</p>
+          <span class="id">3876</span>
+        </div>
+
+        <div class="item" data-category="Croissant" data-id="24418">
+          <p class="name">Croissant Francês</p>
+          <span class="id">24418</span>
+        </div>
+
+        <div class="item" data-category="Croissant" data-id="3545">
+          <p class="name">Croissant Frango</p>
+          <span class="id">3545</span>
+        </div>
+        <!-- CROISSANT -->
+
+        <!-- PATEL -->
+        <div class="item" data-category="Pastel" data-id="36214">
+          <p class="name">Pastel c/ Charque</p>
+          <span class="id">36214</span>
+        </div>
+
+        <div class="item" data-category="Pastel" data-id="36213">
+          <p class="name">Pastel Camarão c/ Jambu</p>
+          <span class="id">36213</span>
+        </div>
+
+        <div class="item" data-category="Pastel" data-id="3342">
+          <p class="name">Pastel Folhado de Queijo</p>
+          <span class="id">3342</span>
+        </div>
+
+        <div class="item" data-category="Pastel" data-id="3343">
+          <p class="name">Pastel Folhado Misto</p>
+          <span class="id">3343</span>
+        </div>
+
+        <div class="item" data-category="Pastel" data-id="27434">
+          <p class="name">Pastel Folhado de Bacalhau</p>
+          <span class="id">27434</span>
+        </div>
+
+        <!-- Lanches Quentes -->
+        <div class="item" data-category="Lanche Quente" data-id="3380">
+          <p class="name">Misto Quente</p>
+          <span class="id">3380</span>
+        </div>
+
+        <div class="item" data-category="Lanche Quente" data-id="3379">
+          <p class="name">Queijo Quente</p>
+          <span class="id">3379</span>
+        </div>
+        <!-- PATEL -->
+
+        <!-- PIZZA -->
+        <!-- Pizzas -->
+        <div class="item" data-category="Pizza" data-id="3758">
+          <p class="name">Pizza em Palla Calabresa</p>
+          <span class="id">3758</span>
+        </div>
+
+        <div class="item" data-category="Pizza" data-id="26163">
+          <p class="name">Pizza em Palla Marguerita</p>
+          <span class="id">26163</span>
+        </div>
+
+        <div class="item" data-category="Pizza" data-id="27163">
+          <p class="name">Pizza em Palla 4 Queijos</p>
+          <span class="id">27163</span>
+        </div>
+
+        <div class="item" data-category="Pizza" data-id="27508">
+          <p class="name">Pizza em Palla Peperoni</p>
+          <span class="id">27508</span>
+        </div>
+
+        <div class="item" data-category="Pizza" data-id="4270">
+          <p class="name">Pizza em Palla Bacon</p>
+          <span class="id">4270</span>
+        </div>
+        <!-- PIZZA -->
+
+        <!-- Sanduíches e Outros -->
+        <div class="item" data-category="Sanduíche" data-id="4196">
+          <p class="name">Croque Monsieur</p>
+          <span class="id">4196</span>
+        </div>
+
+        <div class="item" data-category="Sanduíche" data-id="4195">
+          <p class="name">Lanche Ciabatta</p>
+          <span class="id">4195</span>
+        </div>
+
+        <div class="item" data-category="Outro" data-id="3877">
+          <p class="name">Saltenha de Carne</p>
+          <span class="id">3877</span>
+        </div>
+      </div>
+      <!-- Sanduíches e Outros -->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
